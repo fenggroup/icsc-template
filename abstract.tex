@@ -1,0 +1,116 @@
+\documentclass{icsc}
+
+\usepackage{booktabs}
+\usepackage[margin=2mm]{subcaption}
+
+\usepackage{authblk}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+  \fontsize{14}{20}{\bf Paper title\\[3pt]}
+\end{center}
+
+%%%%%%%%%%%%%%%% authors %%%%%%%%%%%%%%%
+\begin{center}
+  \normalsize{\bf{Author One\textsuperscript{1},
+                  Author Two\textsuperscript{2}}}
+\end{center}
+
+\begin{center}
+  \begin{tabular}{c}
+    \textsuperscript{1}Industrial and Manufacturing Systems Engineering Department\\
+    University of Michigan-Dearborn\\
+    4901 Evergreen Rd, Dearborn, MI 48128, USA\\
+    e-mail: abc@example.com\\
+  \end{tabular}
+
+  \begin{tabular}{c}
+    \textsuperscript{2}Industrial and Manufacturing Systems Engineering Department\\
+    University of Michigan-Dearborn\\
+    4901 Evergreen Rd, Dearborn, MI 48128, USA\\
+    e-mail: abc@example.com\\
+  \end{tabular}
+\end{center}
+
+\begin{keywords}
+  bicycle,
+  safety
+\end{keywords}
+
+\section{Introduction}
+%
+Add citation \cite{feng2018drivers}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.3\textwidth]{images/y-axis.png}
+  \caption{XKCD Comic: Y-Axis (https://xkcd.com/2023/)}
+  \label{fig: xkcd}
+\end{figure}
+
+\section{Methods}
+%
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{l r r c}
+    \toprule
+    \textbf{First column} & \textbf{Second column} & \textbf{Third column} & \textbf{Fourth} \\
+    \midrule
+    Foo & 13.37 & 384,394 & $\alpha$ \\
+    Bar & 2.17 & 1,392 & $\beta$ \\
+    Baz & 3.14 & 83,742 & $\delta$ \\
+    Qux & 7.59 & 974 & $\gamma$ \\
+    \bottomrule
+  \end{tabular}
+  \caption{A table caption}
+  \label{table: example-table}
+\end{table}
+
+\section{Results}
+%
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[width=50mm]{images/y-axis.png}
+    \caption{caption for subfigure a}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[width=50mm]{images/y-axis.png}
+    \caption{caption for subfigure b}
+  \end{subfigure}
+  \caption{Caption for this figure}
+  \label{fig: 2-subfigures}
+\end{figure}
+
+\section{Conclusions}
+%
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

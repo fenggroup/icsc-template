@@ -1,0 +1,1 @@
+This template is based on [Dr. Jason K. Moore's work](https://github.com/moorepants/icsc2024).
